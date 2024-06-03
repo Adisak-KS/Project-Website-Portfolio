@@ -93,3 +93,10 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
             allSection[i].classList.toggle("open");
         }
     }
+
+
+// / ================================= Aside  ==================================
+    document.getElementById('downloadCV').addEventListener('click', function(event) {
+        event.preventDefault();  // ป้องกันการนำทางตามปกติ
+        window.open('cv/cv.pdf', '_blank');  // เปิดไฟล์ cv.pdf ในหน้าต่างใหม่
+    });
