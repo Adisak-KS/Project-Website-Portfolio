@@ -404,8 +404,8 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info {
-  flex: 0 0 60%;
-  max-width: 60%;
+  flex: 0 0 50%;
+  max-width: 50%;
   margin-top: 40px;
 }
 
@@ -438,10 +438,47 @@ h3.my-profession {
   margin-top: 10px;
 }
 
-.about .about-content .skills {
-  flex: 0 0 40%;
-  max-width: 40%;
+.about .language-info{
+  flex: 0 0 50%;
+  max-width: 50%;
   margin-top: 40px;
+}
+
+.about .about-content .language-info .info-item {
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+.about .about-content .language-info .info-item p {
+  font-weight: 600;
+  padding: 10px 0;
+  font-size: 16px;
+  color: var(--text-black-900);
+  border-bottom: 1px solid var(--bg-black-50);
+}
+
+.about .about-content .language-info .info-item p span {
+  font-weight: 400;
+  color: var(--text-black-700);
+  margin-left: 4px;
+  display: inline-block;
+}
+
+.about .about-content .language-info .buttons {
+  margin-top: 30px;
+}
+
+.about .about-content .language-info .buttons .btn {
+  
+  margin-top: 10px;
+}
+
+
+
+.about .about-content .skills {
+  flex: 0 0 50%;
+  max-width: 50%;
+  margin-top: 55px;
 }
 
 .about .about-content .skills .skill-item {
@@ -813,6 +850,10 @@ h3.my-profession {
     left: 270px;
   }
 
+  .about .about-content .language-info .info-item p span {
+    display: block;
+    margin-left: 0;
+  }
   .about .about-content .personal-info .info-item p span {
     display: block;
     margin-left: 0;
@@ -850,6 +891,7 @@ h3.my-profession {
   .about .about-content .experience,
   .about .about-content .education,
   .about .about-content .skills,
+  .about .about-content .language-info, 
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
