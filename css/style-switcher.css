@@ -85,3 +85,26 @@
     background: #f021b2;
 }
 
+.switch-language{
+    position: fixed;
+    right: 0;
+    top: 60px;
+    padding: 15px;
+    width: 200px;
+    border: 1px solid var(--bg-black-50);
+    background: var(--bg-black-100);
+    z-index: 101;
+    border-radius: 5px;
+    transition: all 0.3s ease;
+    transform: translateY(120%);
+    display: flex; /* ใช้ Flexbox */
+    align-items: center; /* จัดแนวแนวตั้งให้ตัวหนังสืออยู่ตรงกลาง */
+    justify-content: center; /* จัดแนวแนวนอนให้ตัวหนังสืออยู่ตรงกลาง */
+   
+}
+
+.switch-language a{
+    color: var(--skin-color);
+    /* font-weight: 400; */
+}
+

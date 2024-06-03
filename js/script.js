@@ -98,5 +98,5 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
 // / ================================= Aside  ==================================
     document.getElementById('downloadCV').addEventListener('click', function(event) {
         event.preventDefault();  // ป้องกันการนำทางตามปกติ
-        window.open('cv/cv.pdf', '_blank');  // เปิดไฟล์ cv.pdf ในหน้าต่างใหม่
+        window.open('cv/cv_adisak_khongsuk.pdf', '_blank');  // เปิดไฟล์ cv.pdf ในหน้าต่างใหม่
     });
