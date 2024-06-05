@@ -340,6 +340,8 @@ h3.my-profession {
   margin-bottom: 70px;
   font-size: 20px;
   color: var(--text-black-700);
+  text-indent: 2.5em;
+  text-align: justify;
 }
 
 .home .home-img {
@@ -605,8 +607,11 @@ h3.my-profession {
 .about .about-content .timeline .timeline-text {
   line-height: 25px;
   font-size: 16px;
-  text-align: justify;
+  text-align: start;
   color: var(--text-black-700);
+  text-indent: 2.5em;
+  text-align: justify;
+  padding-right: 20px;
 }
 
 /* Service  */
@@ -709,6 +714,7 @@ h3.my-profession {
 .portfolio .portfolio-item-inner .portfolio-img img {
   width: 100%;
   display: block;
+  object-fit: cover;
 }
 
 .portfolio .portfolio-item-inner .link-github-live-demo {
@@ -775,6 +781,12 @@ h3.my-profession {
   line-height: 25px;
   color: var(--text-black-700);
   font-weight: 400;
+}
+
+.contact .contact-info-item p a{
+ 
+  color: var(--text-black-700);
+
 }
 
 .contact .contact-form {
@@ -863,6 +875,7 @@ h3.my-profession {
   /* เพิ่มเข้ามาเอง  */
   .portfolio-img {
     min-width: 100%;
+    min-height: 20%;
   }
 }
 
