@@ -65,6 +65,6 @@ ___
    
 ![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/05_dark_mode.png)
 
-7. หน้าภาษาไทย
+6. หน้าภาษาไทย
 
 ![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/06_page_thai.png)
