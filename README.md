@@ -47,4 +47,12 @@ ___
 **ของผู้ดูแลระบบ (Admin)**
 1. หน้าแรก
    
-![index]()
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/01_home.png)
+
+2. หน้าข้อมูลส่วนตัว
+   
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/01_home.png)
+
+3. หน้า
+   
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/01_home.png)
