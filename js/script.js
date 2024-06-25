@@ -1,7 +1,7 @@
 // / ================================= typing animation  ==================================
 
 let typed = new Typed(".typing", {
-    strings: ["New Graduates", "Web Developer", "PHP Developer", "Backend Developer", "Full-Stack Developer", "Software Engineer"],
+    strings: ["New Graduate", "Web Developer", "PHP Developer", "Backend Developer", "Full Stack Developer", "Software Engineer"],
     typeSpeed: 100,   // ความเร็วในการพิมพ์ตัวอักษร (มิลลิวินาที)
     backSpeed: 50,    // ความเร็วในการลบตัวอักษร (มิลลิวินาที)
     backDelay: 500,
@@ -96,7 +96,7 @@ const navTogglerBtn = document.querySelector(".nav-toggler"),
 
 
 // / ================================= Aside  ==================================
-    document.getElementById('downloadCV').addEventListener('click', function(event) {
+    document.getElementById('downloadResume').addEventListener('click', function(event) {
         event.preventDefault();  // ป้องกันการนำทางตามปกติ
-        window.open('cv/cv_adisak_khongsuk.pdf', '_blank');  // เปิดไฟล์ cv.pdf ในหน้าต่างใหม่
+        window.open('resume/resume_adisak_khongsuk.pdf', '_blank');  // เปิดไฟล์ cv.pdf ในหน้าต่างใหม่
     });

@@ -1,5 +1,5 @@
 /* @import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Poppins:wght@200;300;400;500;600;700&display=swap"); */
-@import url('https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kanit:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Clicker+Script&family=Kanit:wght@200;300;400;500;600;700&family=Poppins:wght@200;300;400;500;600;700&display=swap");
 
 :root {
   --bg-black-900: #f2f2fc;
@@ -20,7 +20,7 @@ body.dark {
 body {
   line-height: 1.5;
   font-size: 16px;
- font-family: "Poppins", "Kanit", sans-serif;
+  font-family: "Poppins", "Kanit", sans-serif;
 }
 
 * {
@@ -57,22 +57,21 @@ ul {
   transition: all 0.3s ease;
 }
 
-.section.back-section{
+.section.back-section {
   z-index: 1;
 }
 
-.section.active{
+.section.active {
   z-index: 2;
   opacity: 1;
   animation: slideSection 1s ease;
-
 }
 
-@keyframes slideSection{
-  0%{
+@keyframes slideSection {
+  0% {
     transform: translateX(100%);
   }
-  100%{
+  100% {
     transform: translateX(0%);
   }
 }
@@ -243,7 +242,7 @@ ul {
   position: relative;
 }
 
-.aside .nav-toggler.open span{
+.aside .nav-toggler.open span {
   background-color: transparent;
 }
 
@@ -257,7 +256,7 @@ ul {
   left: 0;
 }
 
-.aside .nav-toggler.open span::before{
+.aside .nav-toggler.open span::before {
   transform: rotate(45deg);
   top: 0;
 }
@@ -272,7 +271,7 @@ ul {
   left: 0;
 }
 
-.aside .nav-toggler.open span::after{
+.aside .nav-toggler.open span::after {
   transform: rotate(-45deg);
   top: 0;
 }
@@ -407,8 +406,8 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info {
-  flex: 0 0 50%;
-  max-width: 50%;
+  flex: 0 0 60%;
+  max-width: 60%;
   margin-top: 40px;
 }
 
@@ -433,17 +432,17 @@ h3.my-profession {
 }
 
 .about .about-content .personal-info .buttons {
-  margin-top: 30px;
-}
-
-.about .about-content .personal-info .buttons .btn {
-  
+  /* margin-top: 30px; */
   margin-top: 10px;
 }
 
-.about .language-info{
-  flex: 0 0 50%;
-  max-width: 50%;
+.about .about-content .personal-info .buttons .btn {
+  margin-top: 10px;
+}
+
+.about .language-info {
+  flex: 0 0 40%;
+  max-width: 40%;
   margin-top: 40px;
 }
 
@@ -468,15 +467,12 @@ h3.my-profession {
 }
 
 .about .about-content .language-info .buttons {
-  margin-top: 30px;
+  margin-top: 20px;
 }
 
 .about .about-content .language-info .buttons .btn {
-  
   margin-top: 10px;
 }
-
-
 
 .about .about-content .skills {
   flex: 0 0 50%;
@@ -594,6 +590,10 @@ h3.my-profession {
 
 .about .about-content .timeline .timeline-date .fa {
   margin-right: 5px;
+}
+
+.about .about-content .timeline .timeline-date span {
+  letter-spacing: 2px;
 }
 
 .about .about-content .timeline .timeline-title {
@@ -783,10 +783,8 @@ h3.my-profession {
   font-weight: 400;
 }
 
-.contact .contact-info-item p a{
- 
+.contact .contact-info-item p a {
   color: var(--text-black-700);
-
 }
 
 .contact .contact-form {
@@ -834,7 +832,7 @@ h3.my-profession {
 }
 
 @media (max-width: 1199px) {
-  .section .container{
+  .section .container {
     padding-top: 70px;
   }
 
@@ -842,24 +840,24 @@ h3.my-profession {
     left: -270px;
   }
 
-  .aside.open{
+  .aside.open {
     left: 0;
   }
 
-  .aside .nav-toggler{
+  .aside .nav-toggler {
     display: flex;
     left: 30px;
   }
 
-  .aside .nav-toggler.open{
+  .aside .nav-toggler.open {
     left: 300px;
   }
 
-  .section{
+  .section {
     left: 0;
   }
 
-  .section.open{
+  .section.open {
     left: 270px;
   }
 
@@ -905,7 +903,7 @@ h3.my-profession {
   .about .about-content .experience,
   .about .about-content .education,
   .about .about-content .skills,
-  .about .about-content .language-info, 
+  .about .about-content .language-info,
   .about .about-content .personal-info {
     flex: 0 0 100%;
     max-width: 100%;
