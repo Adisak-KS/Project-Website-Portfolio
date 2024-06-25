@@ -51,8 +51,20 @@ ___
 
 2. หน้าข้อมูลส่วนตัว
    
-![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/01_home.png)
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/02_about.png)
 
-3. หน้า
+3. หน้ารวบรวมผลงาน
    
-![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/01_home.png)
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/03_portfolio.png)
+
+4. หน้าข้อมูลติดต่อ
+   
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/04_contact.png)
+
+5. แสดงแบบ Dark Mode
+   
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/05_dark_mode.png)
+
+7. หน้าภาษาไทย
+
+![index](https://github.com/Adisak-KS/Project-Website-Portfolio/blob/main/previews/05_dark_mode.png)
